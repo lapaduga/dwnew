@@ -1344,6 +1344,62 @@ body {
   }
 }
 
+.functions__title {
+  text-align: center;
+  margin: 200px 0 100px 0;
+}
+
+.functions__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.functions__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border: 1px solid red;
+}
+
+.functions__image-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-bottom: 180px;
+}
+
+.functions__image-1 img {
+  max-width: 483px;
+  max-height: 962px;
+}
+
+.functions__image-2 {
+  position: absolute;
+  top: 100px;
+  left: 102px;
+  z-index: 0;
+}
+
+.functions__image-2 img {
+  max-width: 483px;
+  max-height: 962px;
+}
+
+.info {
+  border: 1px solid red;
+  max-width: 482px;
+  position: relative;
+}
+
 .popup {
   position: fixed;
   width: 100%;
