@@ -17,6 +17,7 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	border: 1px solid red;
 }
 
 .fixed-location {
@@ -1077,6 +1078,7 @@ body {
 	display: flex;
 	position: relative;
 	border: 1px solid red;
+	max-width: 585px;
 }
 .functions__image-1 {
 	position: relative;
