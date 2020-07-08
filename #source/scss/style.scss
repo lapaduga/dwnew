@@ -1073,29 +1073,19 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-bottom: 180px;
 }
 .functions__images {
 	display: flex;
-	position: relative;
-	border: 1px solid red;
 	max-width: 585px;
 }
 .functions__image-1 {
-	position: relative;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	margin-bottom: 180px;
 	img{
 		max-width: 483px;
 		max-height: 962px;
 	}
 }
 .functions__image-2 {
-	position: absolute;
-	top: 100px;
-	left: 102px;
-	z-index: 0;
 	img{
 		max-width: 483px;
 		max-height: 962px;
@@ -1105,7 +1095,7 @@ body {
 }
 .info {
 	border: 1px solid red;
-	max-width: 482px;
+	max-width: 483px;
 	position: relative;
 }
 .functions__icon {
