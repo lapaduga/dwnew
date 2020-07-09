@@ -17,7 +17,7 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	//border: 1px solid red;
+	border: 1px solid red;
 }
 
 .fixed-location {
@@ -1094,28 +1094,13 @@ body {
 		max-height: 962px;
 	}
 }
-.functions__info {
-}
+
 .info {
-	//border: 1px solid red;
 	max-width: 483px;
 	position: relative;
 }
-.functions__icon {
-}
-.icon {
-	margin-bottom: 64px;
-}
 .functions__subtitle {
 	margin-bottom: 32px;
-}
-.functions__list {
-}
-.functions__list-items {
-}
-.list {
-}
-.functions__list-item {
 }
 .list-item {
 	margin: 20px 0;
@@ -1231,6 +1216,35 @@ body {
 		margin: 0 20px 50px 20px;
 		font-size: 40px;
 	}
+}
+
+//menu
+
+.menu-bg {
+	background-image: url('/img/img/menu/menubg.webp');
+}
+.container {
+}
+.menu {
+	display: flex;
+}
+.menu__info {
+}
+.info {
+}
+.menu__subtitle {
+}
+.subtitle {
+}
+.menu__list {
+}
+.menu__list-item {
+}
+.list-item {
+}
+.unibutton {
+}
+.menu__image {
 }
 
 //popup 

@@ -108,6 +108,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 .fixed-location {
@@ -1393,10 +1394,6 @@ body {
   position: relative;
 }
 
-.icon {
-  margin-bottom: 64px;
-}
-
 .functions__subtitle {
   margin-bottom: 32px;
 }
@@ -1508,6 +1505,16 @@ body {
     margin: 0 20px 50px 20px;
     font-size: 40px;
   }
+}
+
+.menu-bg {
+  background-image: url("/img/img/menu/menubg.webp");
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .popup {
