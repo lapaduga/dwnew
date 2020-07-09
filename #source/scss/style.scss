@@ -1064,6 +1064,7 @@ body {
 //functions section
 
 .functions {
+	width: 1200px;
 }
 .functions__title {
 	text-align: center;
@@ -1086,6 +1087,9 @@ body {
 	}
 }
 .functions__image-2 {
+
+	margin: 100px 0 0 -381px;
+	z-index: -1;
 	img{
 		max-width: 483px;
 		max-height: 962px;
@@ -1094,15 +1098,17 @@ body {
 .functions__info {
 }
 .info {
-	border: 1px solid red;
+	//border: 1px solid red;
 	max-width: 483px;
 	position: relative;
 }
 .functions__icon {
 }
 .icon {
+	margin-bottom: 64px;
 }
 .functions__subtitle {
+	margin-bottom: 32px;
 }
 .functions__list {
 }
@@ -1113,6 +1119,9 @@ body {
 .functions__list-item {
 }
 .list-item {
+	margin: 20px 0;
+	font-size: 20px;
+	line-height: 140%;
 }
 
 //popup 
