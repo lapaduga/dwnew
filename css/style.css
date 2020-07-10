@@ -108,6 +108,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 .fixed-location {
@@ -1693,6 +1694,84 @@ body {
   .menu__button {
     width: 250px;
   }
+}
+
+.features {
+  margin: 80px 0 100px 0;
+  width: 1200px;
+}
+
+.features__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.features__icon {
+  margin-bottom: 64px;
+}
+
+.features__subtitle {
+  margin-bottom: 32px;
+}
+
+.features__list-items {
+  margin-bottom: 80px;
+}
+
+.features__image-1 img {
+  max-width: 483px;
+  max-height: 962px;
+}
+
+.block-1-image-1 {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.features__image-2 img {
+  max-width: 483px;
+  max-height: 962px;
+}
+
+.block-1-image-2 {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  margin: -862px 0 0 -102px;
+}
+
+.block-2-image-2 {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  margin: -862px 0 0 102px;
+}
+
+.features__origin {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.features__percent {
+  margin-bottom: 0px;
+  background: url("/img/icons/features/icon2-bottom.svg") 25% no-repeat;
+}
+
+.features__percent-text {
+  margin: 0px 0px 52px 0px;
 }
 
 .popup {
