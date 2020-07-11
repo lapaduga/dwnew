@@ -2535,7 +2535,7 @@ body {
 
 @media (max-width: 360px) {
   .rent {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .rent__title {
     margin-left: 15px;
@@ -2546,7 +2546,10 @@ body {
     font-size: 20px;
   }
   .rent__list {
-    width: 290px;
+    width: 280px;
+  }
+  .rent__list-item {
+    font-size: 16px;
   }
 }
 
