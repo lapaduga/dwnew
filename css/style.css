@@ -108,7 +108,6 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .fixed-location {
@@ -1920,7 +1919,7 @@ body {
 .buy {
   margin: 200px 0 80px 0;
   text-align: center;
-  height: 800px;
+  min-height: 800px;
 }
 
 .buy__title {
@@ -2390,6 +2389,164 @@ body {
 @media (max-width: 1365px) {
   .rent__table-sale-text {
     font-size: 16px;
+  }
+  .rent {
+    margin-top: 200px;
+  }
+  .rent__text,
+  .rent__table {
+    margin: 0;
+  }
+  .rent__table-pay-info {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .rent__table-sale-old-price:after {
+    content: "";
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+    left: -3px;
+    top: -23px;
+  }
+  .rent__table-sale-text {
+    font-size: 14px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .rent__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rent__table-sale-old-price:after {
+    content: "";
+    left: -89px;
+    top: -5px;
+  }
+  .rent {
+    margin-top: 150px;
+  }
+  .rent__title {
+    margin-bottom: 0px;
+    line-height: 1;
+  }
+  .rent__subtitle {
+    margin-bottom: 0px;
+  }
+  .rent__text {
+    max-width: 80%;
+  }
+  .rent__table-sale-text {
+    font-size: 16px;
+  }
+  .rent__table-item:hover {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border: 1px solid #E1E1E1;
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  .rent__table-item:hover .rent__table-sale {
+    border: 1px solid #E1E1E1;
+  }
+}
+
+@media (max-width: 580px) {
+  .rent__table-text {
+    font-size: 14px;
+    max-width: 100px;
+    font-weight: 700;
+  }
+  .rent__table-price {
+    font-size: 14px;
+  }
+  .rent__table-sale-text {
+    font-size: 14px;
+  }
+  .rent__table-sale-actual-price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 545px) {
+  .rent__table-sale-old-price:after {
+    content: "";
+    left: -3px;
+    top: -23px;
+  }
+  .rent__table-price-info {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rent__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 451px) {
+  .rent {
+    margin-left: 15px;
+  }
+  .rent__title {
+    text-align: left;
+    width: 100px;
+  }
+  .rent__table {
+    max-width: 300px;
+  }
+  .rent__table-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 250px;
+    padding: 10%;
+  }
+  .rent__table-price-info {
+    margin-left: 0px;
+  }
+  .rent__table-icon {
+    margin-bottom: 20px;
+  }
+  .rent__table-text {
+    margin-bottom: 20px;
+    max-width: 250px;
+  }
+  .rent__table-pay-info {
+    max-width: 250px;
+  }
+  .rent__table-sale {
+    top: 248px;
+  }
+}
+
+@media (max-width: 360px) {
+  .rent {
+    margin-left: 0px;
+  }
+  .rent__title {
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  .rent__subtitle {
+    width: 290px;
+    font-size: 20px;
+  }
+  .rent__list {
+    width: 290px;
   }
 }
 
