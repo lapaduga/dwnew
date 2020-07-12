@@ -1326,7 +1326,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  #extra-phone {
+  .forwho__phone {
     display: none;
   }
   .forwho__phones {
@@ -1340,7 +1340,13 @@ body {
     padding-bottom: 30px;
   }
   .forwho__text {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .forwho {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background: url("../img/img/forwho/mobile.webp") center 550px/85% auto no-repeat;
   }
 }
 
@@ -1386,6 +1392,10 @@ body {
 .functions__image-2 img {
   max-width: 483px;
   max-height: 962px;
+}
+
+.functions__icon {
+  margin-bottom: 64px;
 }
 
 .info {

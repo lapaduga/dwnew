@@ -1043,7 +1043,7 @@ body {
 }
 
 @media (max-width: 480px) {
-	#extra-phone {
+	.forwho__phone {
 		display: none;
 	}
 
@@ -1057,7 +1057,11 @@ body {
 		padding-bottom: 30px;
 	}
 	.forwho__text {
-		font-size: 15px;
+		font-size: 13px;
+	}
+	.forwho{
+		justify-content: flex-start;
+		background: url('../img/img/forwho/mobile.webp') center 550px/ 85% auto no-repeat;
 	}
 }
 
@@ -1094,7 +1098,9 @@ body {
 		max-height: 962px;
 	}
 }
-
+.functions__icon{
+	margin-bottom: 64px;
+}
 .info {
 	max-width: 483px;
 	position: relative;
