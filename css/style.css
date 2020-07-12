@@ -108,6 +108,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 .fixed-location {
@@ -2447,12 +2448,12 @@ body {
   .rent__table-item:hover {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     -webkit-transform: translate(0px);
             transform: translate(0px);
   }
   .rent__table-item:hover .rent__table-sale {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
   }
 }
 
@@ -2551,6 +2552,113 @@ body {
   .rent__list-item {
     font-size: 16px;
   }
+}
+
+.cost {
+  margin: 64px 0 130px 0;
+}
+
+.cost__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.cost__subtitle {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 32%;
+          flex: 0 1 32%;
+}
+
+.cost__table {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 63%;
+          flex: 0 1 63%;
+}
+
+.cost__table-names {
+  font-size: 14px;
+  line-height: 140%;
+  color: #525252;
+  height: 90px;
+  border: 1px solid #e1e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cost__table-item {
+  border: 1px solid #e1e1e1;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cost__table-month {
+  font-size: 20px;
+  line-height: 26px;
+  border: 1px solid #ff86ff;
+}
+
+.cost__table-price {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.cost__table-to-pay {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #237bff;
+}
+
+.cost__table-discount {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  color: #7ac143;
+}
+
+.cost__table-old-price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ff2323;
+}
+
+.cost__table-old-price:after {
+  content: "";
+  display: inline-block;
+  background-color: #ff2323;
+  height: 2px;
+  width: 77px;
+  -webkit-transform: rotate(-7deg) translate(-81px, -15px);
+          transform: rotate(-7deg) translate(-81px, -15px);
+}
+
+.cost__button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .popup {
