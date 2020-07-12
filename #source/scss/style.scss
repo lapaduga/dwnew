@@ -1111,16 +1111,19 @@ body {
 	margin-bottom: 180px;
 }
 .functions__images {
+	transition: all 0.3s ease 0s;
 	display: flex;
 	max-width: 585px;
 }
 .functions__image-1 {
+	transition: all 0.3s ease 0s;
 	img {
 		max-width: 483px;
 		max-height: 962px;
 	}
 }
 .functions__image-2 {
+	transition: all 0.3s ease 0s;
 	margin: 100px 0 0 -381px;
 	z-index: -1;
 	img {
@@ -1143,6 +1146,45 @@ body {
 	font-size: 20px;
 	line-height: 140%;
 }
+
+@media (min-width: 1024px){
+	.functions__images:hover{
+		transition: all 0.3s ease 0s;
+		.functions__image-1{
+			transform: translate(-20%);
+		}
+		.functions__image-2{
+			margin: 0px 0 0 0px;
+		}
+	}
+}
+
+@media (min-width: 1080px){
+	.functions__images:hover{
+		transition: all 0.3s ease 0s;
+		.functions__image-1{
+			transform: translate(-10%) scale(0.75);
+		}
+		.functions__image-2{
+			margin: 0px 0 0 -100px;
+			transform: scale(0.75);
+		}
+	}
+}
+
+@media (min-width: 1366px){
+	.functions__images:hover{
+		transition: all 0.3s ease 0s;
+		.functions__image-1{
+			transform: translate(-15%) scale(0.65);
+		}
+		.functions__image-2{
+			margin: 0px 0 0 -200px;
+			transform: scale(0.65);
+		}
+	}
+}
+
 
 @media (max-width: 1365px) {
 	.functions {
@@ -1286,12 +1328,45 @@ body {
 	width: 482px;
 }
 .menu__image {
+	transition: all 0.4s ease 0s;
 	margin-left: -5.5%;
 	img {
+		transition: all 0.4s ease 0s;
 		max-width: 738px;
 		max-height: 820px;
 	}
 }
+
+@media (min-width: 1024px){
+	.menu__image:hover{
+		transition: all 0.4s ease 0s;
+		img{
+			transition: all 0.4s ease 0s;
+			transform: translate(-8%, -1%) scale(1.02);
+		}
+	}
+}
+
+@media (min-width: 1281px){
+	.menu__image:hover{
+		transition: all 0.4s ease 0s;
+		img{
+			transition: all 0.4s ease 0s;
+			transform: translate(-15%, -1%) scale(1.02);
+		}
+	}
+}
+
+@media (min-width: 1366px){
+	.menu__image:hover{
+		transition: all 0.4s ease 0s;
+		img{
+			transition: all 0.4s ease 0s;
+			transform: translate(-8%, -1%) scale(1.02);
+		}
+	}
+}
+
 
 @media (max-width: 1280px) {
 	.menu__image {
@@ -1404,7 +1479,7 @@ body {
 //features
 
 .features {
-	margin: 80px 0 100px 0;
+	margin: 80px auto 100px auto;
 	width: 1200px;
 }
 .features__block {
@@ -1422,13 +1497,18 @@ body {
 .features__list-items {
 	margin-bottom: 80px;
 }
+.features__images{
+	transition: all 0.3s ease 0s;
+}
 .features__image-1 {
+	transition: all 0.3s ease 0s;
 	img {
 		max-width: 483px;
 		max-height: 962px;
 	}
 }
 .features__image-2 {
+	transition: all 0.3s ease 0s;
 	img {
 		max-width: 483px;
 		max-height: 962px;
@@ -1465,6 +1545,95 @@ body {
 }
 .features__percent-text {
 	margin: 0px 0px 52px 0px;
+}
+
+@media (min-width: 1024px){
+	.features__images-block-1:hover{
+		transition: all 0.3s ease 0s;
+		.block-1-image-1{
+			transition: all 0.3s ease 0s;
+			transform: scale(0.9) translate(30%);
+		}
+		.block-1-image-2{
+			transition: all 0.3s ease 0s;
+			margin: -500px 0 0 -200px;
+			transform: scale(0.9);
+		}
+	}
+	.features__images-block-2:hover{
+		transition: all 0.3s ease 0s;
+		.block-2-image-1{
+			transition: all 0.3s ease 0s;
+			transform: scale(0.9) translate(-30%);
+		}
+		.block-2-image-2{
+			transition: all 0.3s ease 0s;
+			margin: -500px 0 0 102px;
+			transform: scale(0.9) translate(25%);
+		}
+	}
+	.block-3-image-1:hover{
+		transform: translate(-30%) scale(1.1);
+	}
+}
+@media (min-width: 1081px){
+	.features__images:hover{
+		transition: all 0.3s ease 0s;
+		.block-1-image-1{
+			transition: all 0.3s ease 0s;
+			transform: scale(0.8) translate(10%);
+		}
+		.block-1-image-2{
+			transition: all 0.3s ease 0s;
+			margin: -700px 0 0 -300px;
+			transform: scale(0.8);
+		}
+	}
+	.features__images-block-2:hover{
+		transition: all 0.3s ease 0s;
+		.block-2-image-1{
+			transition: all 0.3s ease 0s;
+			transform: scale(0.7) translate(-20%);
+		}
+		.block-2-image-2{
+			transition: all 0.3s ease 0s;
+			margin: -700px 0 0 102px;
+			transform: scale(0.7) translate(50%);
+		}
+	}
+	.block-3-image-1:hover{
+		transform: translate(-30%) scale(1);
+	}
+}
+
+@media (min-width: 1366px){
+	.features__images:hover{
+		transition: all 0.3s ease 0s;
+		.block-1-image-1{
+			transition: all 0.3s ease 0s;
+			transform: scale(0.8) translate(30%);
+		}
+		.block-1-image-2{
+			transition: all 0.3s ease 0s;
+			margin: -962px 0 0 -400px;
+			transform: scale(0.8) translate(10%);
+		}
+	}
+	.features__images-block-2:hover{
+		transition: all 0.3s ease 0s;
+		.block-2-image-1{
+			transition: all 0.3s ease 0s;
+			transform: scale(0.7) translate(-30%);
+		}
+		.block-2-image-2{
+			transition: all 0.3s ease 0s;
+			margin: -962px 0 0 102px;
+			transform: scale(0.7) translate(50%);
+		}
+	}
+	.block-3-image-1:hover{
+		transform: translate(-30%) scale(0.9);
+	}
 }
 
 @media (max-width: 1365px) {
