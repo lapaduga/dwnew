@@ -12,14 +12,14 @@ $(document).ready(function () {
 			e.preventDefault();
 			$('#input-2').css('border', '1px solid red');
 		}else{
-			$('#input-1').css('border', '1px solid #ddd');
+			$('#input-2').css('border', '1px solid #ddd');
 		}
 
 		if($('#input-3').val() == ''){
 			e.preventDefault();
 			$('#input-3').css('border', '1px solid red');
 		}else{
-			$('#input-1').css('border', '1px solid #ddd');
+			$('#input-3').css('border', '1px solid #ddd');
 		}
 	});
 });
