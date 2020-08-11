@@ -750,6 +750,12 @@ body {
   }
 }
 
+@media (max-width: 445px) {
+  .dmainscreen {
+    min-height: 1050px;
+  }
+}
+
 @media (max-width: 360px) {
   .deliver {
     margin-left: 23px;
@@ -773,6 +779,9 @@ body {
   }
   .dmainscreen__list-item span {
     font-size: 18px;
+  }
+  .dmainscreen {
+    min-height: 1000px;
   }
 }
 
@@ -1372,7 +1381,7 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    background: url("../img/img/forwho/mobile.webp") center 550px/85% auto no-repeat;
+    background: url("../img/img/forwho/mobile.png") center 550px/85% auto no-repeat;
   }
 }
 
@@ -1598,7 +1607,7 @@ body {
 }
 
 .menu-bg {
-  background: url("../img/img/menu/menubg.webp") 50%/cover no-repeat;
+  background: url("../img/img/menu/menubg.png") 50%/cover no-repeat;
   height: 900px;
 }
 
