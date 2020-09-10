@@ -2263,7 +2263,7 @@ body {
 }
 
 .buy__opyions-item:hover {
-  height: 365px;
+  height: 385px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -2410,7 +2410,7 @@ body {
   }
   .buy__opyions-item {
     margin: 20px 0px;
-    height: 365px;
+    height: 385px;
   }
   .buy__opyions-item .buy__button {
     opacity: 1;
@@ -2429,7 +2429,7 @@ body {
   }
   .buy__opyions-item {
     margin: 20px 0px;
-    height: 365px;
+    height: 385px;
   }
   .buy__opyions-item .buy__button {
     opacity: 1;
